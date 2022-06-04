@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Cabin', sans-serif;
+    overflow-x: hidden;
+}
+
+section {
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+
+#main, #skills {
+    background-color: #343645;
+    color: #fff;
+}
+
+#aboutme {
+    background-color: #222533;
+    color: #fff;
+}
+
+.name-title {
+    padding-top: 10vh;
+    font-size: 5.5rem;
+}
+
+.border-bottom-blue {
+    border-bottom: 10px solid rgb(49, 172, 243);
+    width: 110px;
+}
+
+.social a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: .2s color;
+    margin-right: 17px;
+}
+
+.social a:hover {
+    color: rgb(49, 172, 243);
+}
+
+.editor {
+    width: 80%;
+    margin-top: 15vh;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.editor-bar {
+    background-color: white;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.editor-bar span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+}
+
+.editor-bar span:nth-child(1) {
+    background-color: #E15B66;
+}
+
+.editor-bar span:nth-child(2) {
+    background-color: #E7AE23;
+}
+
+.editor-bar span:nth-child(3) {
+    background-color: #A37DB8;
+}
+
+.editor-area {
+    background-color: #2B2B2B;
+    padding: 10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.text-indigo {
+    color: #af81f9;
+}
+
+a.swipe-down {
+    position: absolute; 
+    left: 0; 
+    right: 0;
+    bottom: 20px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 200px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.swipe-down .material-icons {
+    transition: .3s;
+    bottom: 0px;
+}
+
+.swipe-down:hover .material-icons {
+    position: relative;
+    bottom: -4px;
+}
+
+.information {
+    font-size: 17px;
+}
+
+.information div {
+    margin-bottom: 18px;
+    letter-spacing: 1.25px;
+}
+
+.information div b {
+    margin-right: 8px;
+}
+
+.link {
+    color: #fff;
+    transition: color .2s;   
+}
+
+.link:hover {
+    color: rgb(49, 172, 243);
+}
+
+.skill-block {
+    background-color: #222533;
+    padding: 30px 20px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    transition: .3s transform, .3s color;
+    margin-top: 17vh;
+    
+}
+
+.skill-block:hover {
+    color:rgb(49, 172, 243);
+    transform: scale(1.1);
+}
+
+.skill-icon {
+    font-size: 100px!important;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 48
+}
+.skill-content {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 20px;
+}
+
+.nav-link:hover, .nav-link:focus, .active {
+    color: rgb(49, 172, 243)!important;
+}
+
+.nav-indicator {
+    width: 0px;
+    height: 5px;
+    background-color: rgb(49, 172, 243);
+    transition: .3s width;
+}
+
+.nav-link:hover .nav-indicator, .active .nav-indicator {
+    width: 30px;
+}
